@@ -5,7 +5,7 @@ Today=$(date +%u)
 Colors=("\e[97m" "\e[31m" "\e[91m" "\e[32m" "\e[92m" "\e[33m" "\e[93m" "\e[34m" "\e[94m" "\e[35m" "\e[95m" "\e[36m" "\e[96m")
 
 function thursday_check(){
-	if [ $Today -eq 6 ]; then
+	if [ $Today -eq 4 ]; then
 		amixer -q set Master unmute
 		amixer -q set Master 100%
 		echo -e "\n\n\e[1mDo you know what day is today?!\n\n"

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Thursday
+Comment=Open terminal, wait 5 second and run thursday.sh on login
+Exec=sh -c 'sleep 5 && /usr/bin/gnome-terminal -- /bin/bash -c "$HOME/Thursday-script/thursday.sh; exec /bin/bash"'
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=5
